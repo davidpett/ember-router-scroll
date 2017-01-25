@@ -90,7 +90,7 @@ Edit `config/environment.js` and change `locationType`.
 Also add `historySupportMiddleware: true,` to get live-reload working in nested routes. (See [Issue #21](https://github.com/dollarshaveclub/ember-router-scroll/issues/21))
 
 ```js
-locationType: 'router-scroll'
+locationType: 'router-scroll',
 historySupportMiddleware: true,
 ```
 
